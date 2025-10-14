@@ -1,0 +1,49 @@
+@charset "utf-8";
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css");
+/* 플레이페어체-영문전용 */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+/* 베바스누누(갤러리백상) */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: 'JoseonPalace';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/ChosunGs.woff') format('woff');
+    font-weight: normal;
+    font-display: swap;
+}
+/* 산토끼체 */
+@font-face {
+    font-family: 'HsSantoki';
+    src: url('https://gcore.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/HS-Regular.woff') format('woff');
+    font-weight: normal;
+    font-display: swap;
+}
+/* 스스로 설립체 */
+@font-face {
+    font-family: 'FounderYooGeonWook';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2112@1.0/establishRetrosansOTF.woff') format('woff');
+    font-weight: normal;
+    font-display: swap;
+}
+
+/* 초기화 */
+html, head, body, h1, h2, h3, h4, h5, h6, div, p, ul, ol, li, dl, dt, dd, address, blockquote, form, fieldset, legend, table, caption, tr, th, thead, tbody, tfoot, header, nav, aside, section, article, footer, figure, figcaption, footer, main {margin: 0; padding: 0;}
+li {list-style-type: none;}
+a {text-decoration: none; color: inherit}
+table {border-collapse: collapse;}
+button {border: none;}
+
+em, i, address, cite {font-style: normal;}
+
+body {
+    font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+}
+
+/* 블라인드 텍스트 */
+.blind {
+    font-size: 0;
+    line-height: 0;
+    overflow: hidden;
+    height: 0;
+    visibility: hidden;
+}
